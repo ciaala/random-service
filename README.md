@@ -30,4 +30,5 @@ The response is a PNG image 256x256 pixels with a black background and three inf
 - identifier ( top-left )
 - random value ( center )
 - views count ( bottom-right )
+
 ![Image generated](http://random-service.appspot.com/random/my-roll-dice/16)
