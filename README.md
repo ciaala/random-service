@@ -16,8 +16,9 @@ Is used to handle javaspark dependency and deploy by using two plugins.
 The service gives the user the ability to generate a random value.
 The service generates an image with the random value and other information.
 The randomness is built to be unique through an identifier. 
+*(Check up what i wanted to say)* 
 - the identifier of the random 
-- the number of time the random value has been viewed
+- the number of times the value has been viewed
 
 ### Request
 GET format:
@@ -29,7 +30,7 @@ Example:
 > http://random-service.appspot.com/random/my-roll-dice/16
 
 ### Response
-The response is a PNG image 256x256 pixels with a black background and three information in different location
+The response is a PNG image 256x256 pixels with a black background and three pieces of information in different locations
 - identifier ( top-left )
 - random value ( center )
 - views count ( bottom-right )
