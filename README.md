@@ -4,8 +4,8 @@ This project contains a working example of a google app engine service  built on
 ## App Engine
 The app engine service used is the flexible enrivonment configured as a custom docker.
 See 
-src/main/appengine/app.yaml 
-src/main/Docker/Dockerfile
+- src/main/appengine/app.yaml 
+- src/main/Docker/Dockerfile
 
 ## Maven
 Is used to handle javaspark dependency and deploy by using two plugins.
@@ -21,10 +21,13 @@ The randomness is built to be unique through an identifier.
 
 ### Request
 GET format:
+```
 /random/:identifier/:random-range
-  Example:
-  /random/my-roll-dice/16
-  
+```
+
+Example:
+> http://random-service.appspot.com/random/my-roll-dice/16
+
 ### Response
 The response is a PNG image 256x256 pixels with a black background and three information in different location
 - identifier ( top-left )
